@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "id": "5bae808df6b570000fe39a0f",
+            "userId": "nw52222",
+            "ccsId": "2672sdjdhsj32",
+            "firstName": "Tes",
+            "middleName": "T",
+            "lastName": "User",
+            "emailAddress": "nu@citi.com",
+            "createdDate": "2018-08-21T16:13:25.602+0000",
+            "lastUpdatedDate": "2018-08-21T16:13:25.602+0000",
+            "internalUserFlag": false,
+            "roles": [
+                {
+                    "id": "5bb171ebf6b570000fe3a7fd",
+                    "name": "Developer"
+                }
+            ],
+            "userInterestedProducts": [],
+            "userAccessibleProducts": [
+                {
+                    "id": "5bb171ebf6b570000fe3a7fe",
+                    "name": "canvas10",
+                    "createdDate": "2018-08-21T16:13:25.603+0000",
+                    "lastUpdatedDate": "2018-08-21T16:13:25.603+0000",
+                    "activeFlag": false,
+                    "expirationDate": "2018-08-21T16:13:25.603+0000",
+                    "roles": [
+                        {
+                            "id": "5bb171ebf6b570000fe3a7ff",
+                            "name": "Developer"
+                        }
+                    ],
+                    "userWhitelistedFlag": true
+                }
+            ]
+        }
+    ]
+}
