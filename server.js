@@ -2,12 +2,16 @@
 let express = require('express');
 let bodyParser = require('body-parser');
 let db = require('./db.json');
+let cors = require('cors');
+
 const app = express();
 
 let port = process.env.PORT || 3000;
 
 let jsonParser = bodyParser.json();
 
+// Allows all the CORS from 'http://localhost:4200'
+app.use(cors({credentials: true, origin: 'http://localhost:4200'}));
 
 /**
  * SSO LOGIN
